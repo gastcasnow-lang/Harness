@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARNESS ANALYSIS // PFE REVIEW SYSTEM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-bar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-icon">&#9889;</span>
+            <span class="brand-text">HARNESS<span class="accent">AI</span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-link active" data-section="hero">HOME</a>
+            <a href="#overview" class="nav-link" data-section="overview">OVERVIEW</a>
+            <a href="#problems" class="nav-link" data-section="problems">CRITICAL</a>
+            <a href="#math" class="nav-link" data-section="math">MATH</a>
+            <a href="#code" class="nav-link" data-section="code">CODE</a>
+            <a href="#jury" class="nav-link" data-section="jury">JURY</a>
+            <a href="#score" class="nav-link" data-section="score">SCORE</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="glitch-container">
+                <h1 class="glitch" data-text="CRITICAL ANALYSIS">CRITICAL ANALYSIS</h1>
+            </div>
+            <h2 class="hero-subtitle typing" id="heroSubtitle"></h2>
+            <p class="hero-desc">Deep Technical Review // PFE Report // Automotive Harness Optimization</p>
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <span class="stat-number" data-target="93">0</span>
+                    <span class="stat-label">PAGES ANALYZED</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" data-target="11">0</span>
+                    <span class="stat-label">CRITICAL ISSUES</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" data-target="9">0</span>
+                    <span class="stat-label">JURY QUESTIONS</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" data-target="12">0</span>
+                    <span class="stat-label">SCORE /20</span>
+                </div>
+            </div>
+            <a href="#overview" class="cta-btn">
+                <span>BEGIN ANALYSIS</span>
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>SCROLL DOWN</span>
+        </div>
+    </section>
+
+
+    <!-- OVERVIEW SECTION -->
+    <section class="section" id="overview">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">PROJECT OVERVIEW</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card glass">
+                    <div class="card-icon">&#128218;</div>
+                    <h3>REPORT</h3>
+                    <p>Optimisation de la conception des faisceaux electriques 3D/2D a l'aide de l'intelligence artificielle</p>
+                </div>
+                <div class="info-card glass">
+                    <div class="card-icon">&#127891;</div>
+                    <h3>AUTHOR</h3>
+                    <p>HAJAR HAROUNE<br>ENSA Oujda - Genie Electrique<br>Defense: 22 Juin 2026</p>
+                </div>
+                <div class="info-card glass">
+                    <div class="card-icon">&#127981;</div>
+                    <h3>COMPANY</h3>
+                    <p>Capgemini Engineering<br>MG2 Engineering<br>Casablanca, Morocco</p>
+                </div>
+                <div class="info-card glass">
+                    <div class="card-icon">&#9881;</div>
+                    <h3>METHODOLOGY</h3>
+                    <p>DMAIC (Lean Six Sigma)<br>Python + Capital XC + CATIA<br>Golden Section Search</p>
+                </div>
+            </div>
+
+            <div class="pipeline-section">
+                <h3 class="sub-title">TECHNICAL PIPELINE</h3>
+                <div class="pipeline">
+                    <div class="pipeline-step">
+                        <div class="step-circle">1</div>
+                        <div class="step-content">
+                            <h4>XML EXTRACTION</h4>
+                            <p>Capital XC Export &rarr; Python Parsing</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-connector"></div>
+                    <div class="pipeline-step">
+                        <div class="step-circle">2</div>
+                        <div class="step-content">
+                            <h4>2D VISUALIZATION</h4>
+                            <p>Topology + Colorimetric Rendering</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-connector"></div>
+                    <div class="pipeline-step">
+                        <div class="step-circle">3</div>
+                        <div class="step-content">
+                            <h4>OPTIMIZATION</h4>
+                            <p>Golden Section Search (Splices)</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-connector"></div>
+                    <div class="pipeline-step">
+                        <div class="step-circle">4</div>
+                        <div class="step-content">
+                            <h4>3D VALIDATION</h4>
+                            <p>CATIA 3DXML &rarr; Plotly Render</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CRITICAL PROBLEMS SECTION -->
+    <section class="section dark" id="problems">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">CRITICAL ISSUES</h2>
+            <div class="section-line red"></div>
+        </div>
+        <div class="container">
+            <div class="alert-banner">
+                <span class="alert-icon">&#9888;</span>
+                <span>6 CRITICAL ISSUES IDENTIFIED - REQUIRES IMMEDIATE ATTENTION</span>
+            </div>
+
+            <div class="problems-grid">
+                <div class="problem-card severity-critical reveal">
+                    <div class="severity-badge">CRITICAL</div>
+                    <h3>01 // TITLE IS MISLEADING</h3>
+                    <p>The report claims "AI" (Intelligence Artificielle) but uses <strong>Golden Section Search</strong> (1953, Kiefer). This is a classical 1D deterministic numerical optimization - NOT machine learning, NOT deep learning, NOT even a metaheuristic.</p>
+                    <div class="problem-impact">
+                        <span class="impact-label">RISK:</span>
+                        <span>Jury will challenge credibility of entire report</span>
+                    </div>
+                </div>
+
+                <div class="problem-card severity-critical reveal">
+                    <div class="severity-badge">CRITICAL</div>
+                    <h3>02 // COST FUNCTION IS WRONG</h3>
+                    <p>Code computes <strong>Euclidean distances</strong> (straight line) between splice and connectors. In reality, wires follow the <strong>curvilinear path</strong> along the bundle. The 39.4 cm gain is potentially INCORRECT.</p>
+                    <div class="code-snippet">
+                        <code>return sum(np.hypot(pos[0]-ex, pos[1]-ey) for ex,ey in endpoints)</code>
+                        <span class="code-label">// Should be curvilinear distance, not euclidean!</span>
+                    </div>
+                </div>
+
+                <div class="problem-card severity-high reveal">
+                    <div class="severity-badge high">HIGH</div>
+                    <h3>03 // BOTH SPLICES CONVERGE TO SAME POSITION</h3>
+                    <p>ECF8 &rarr; 5.0cm and EM751 &rarr; 5.0cm. This is exactly <code>MARGIN_SPLICE = 0.050</code>. The algorithm hits the BOUNDARY - it doesn't find an interior optimum. The 30mm minimum gap constraint may be violated.</p>
+                    <div class="problem-impact">
+                        <span class="impact-label">QUESTION:</span>
+                        <span>Is the real minimum outside the feasible region?</span>
+                    </div>
+                </div>
+
+                <div class="problem-card severity-high reveal">
+                    <div class="severity-badge high">HIGH</div>
+                    <h3>04 // SOME WIRES INCREASE BY +33 CM</h3>
+                    <p>Wire CM08B: 71.3cm &rarr; 104.5cm (+33.2 cm). If this wire has a larger cross-section (2.5mm&sup2;) than those that decreased (0.35mm&sup2;), the <strong>actual cost increases</strong> despite total length decreasing.</p>
+                    <div class="problem-impact">
+                        <span class="impact-label">FIX:</span>
+                        <span>Cost function must be weighted: length &times; cost_per_meter &times; CSA</span>
+                    </div>
+                </div>
+
+                <div class="problem-card severity-medium reveal">
+                    <div class="severity-badge medium">MEDIUM</div>
+                    <h3>05 // "CONTROL" PHASE CONTROLS NOTHING</h3>
+                    <p>In DMAIC, "Control" means SPC charts, surveillance plans, process capability (Cp/Cpk). Here it's just "3D visualization display". That's NOT statistical process control.</p>
+                </div>
+
+                <div class="problem-card severity-medium reveal">
+                    <div class="severity-badge medium">MEDIUM</div>
+                    <h3>06 // TESTED ON 1 HARNESS, 2 SPLICES ONLY</h3>
+                    <p>Out of potentially 30+ splices per harness and dozens of harnesses per vehicle, only 2 splices on 1 bundle (BUN2712) of 1 harness (ARRharness) were optimized. This is a <strong>proof of concept</strong>, not an industrial solution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MATH ANALYSIS SECTION -->
+    <section class="section" id="math">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">MATHEMATICAL ANALYSIS</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="container">
+            <div class="math-grid">
+                <div class="math-card glass reveal">
+                    <h3>UNIMODALITY NOT PROVEN</h3>
+                    <div class="math-formula">
+                        <p>Golden Section Search requires f(x) to be <strong>unimodal</strong> (single minimum).</p>
+                        <p>With 5 wires connected to a splice on a non-linear bundle geometry, the sum of lengths can have <strong>MULTIPLE local minima</strong>.</p>
+                    </div>
+                    <div class="verdict negative">
+                        <span>&#10060;</span> No convexity test performed
+                    </div>
+                </div>
+
+                <div class="math-card glass reveal">
+                    <h3>CONVERGENCE ANALYSIS</h3>
+                    <div class="math-formula">
+                        <p>&phi; = (1 + &radic;5) / 2 &asymp; 1.618</p>
+                        <p>Interval reduction: (1 - 1/&phi;) &asymp; 0.382 per iteration</p>
+                        <p>Tolerance: &epsilon; = 10<sup>-6</sup> m</p>
+                    </div>
+                    <div class="verdict positive">
+                        <span>&#9989;</span> Convergence criteria well defined
+                    </div>
+                </div>
+
+                <div class="math-card glass reveal">
+                    <h3>SENSITIVITY ANALYSIS: MISSING</h3>
+                    <div class="math-formula">
+                        <p>Unanswered questions:</p>
+                        <ul>
+                            <li>What if tolerance = 10<sup>-4</sup> instead of 10<sup>-7</sup>?</li>
+                            <li>Sensitivity to &plusmn;5mm coordinate uncertainty?</li>
+                            <li>Is the gain robust to geometry variations?</li>
+                        </ul>
+                    </div>
+                    <div class="verdict negative">
+                        <span>&#10060;</span> No robustness validation
+                    </div>
+                </div>
+
+                <div class="math-card glass reveal">
+                    <h3>CORRECT COST FUNCTION</h3>
+                    <div class="math-formula">
+                        <p><strong>Current (wrong):</strong></p>
+                        <code>J(d) = &Sigma; ||pos(d) - endpoint_i||&sup2;</code>
+                        <p><strong>Correct (curvilinear):</strong></p>
+                        <code>J(d) = &Sigma; |path_length(d, endpoint_i)| &times; cost_i</code>
+                    </div>
+                    <div class="verdict negative">
+                        <span>&#10060;</span> Must use path distance, weighted by cost/meter
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="comparison-section reveal">
+                <h3 class="sub-title">ALGORITHM COMPARISON (MISSING IN REPORT)</h3>
+                <table class="futuristic-table">
+                    <thead>
+                        <tr>
+                            <th>METHOD</th>
+                            <th>TYPE</th>
+                            <th>GLOBAL?</th>
+                            <th>MULTI-OBJ?</th>
+                            <th>COMPLEXITY</th>
+                            <th>USED?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="highlight-row">
+                            <td>Golden Section Search</td>
+                            <td>1D Deterministic</td>
+                            <td class="no">NO</td>
+                            <td class="no">NO</td>
+                            <td>O(log(1/&epsilon;))</td>
+                            <td class="yes">YES</td>
+                        </tr>
+                        <tr>
+                            <td>Genetic Algorithm (NSGA-II)</td>
+                            <td>Metaheuristic</td>
+                            <td class="yes">YES</td>
+                            <td class="yes">YES</td>
+                            <td>O(gen &times; pop)</td>
+                            <td class="no">NO</td>
+                        </tr>
+                        <tr>
+                            <td>Simulated Annealing</td>
+                            <td>Stochastic</td>
+                            <td class="yes">YES</td>
+                            <td class="no">NO</td>
+                            <td>O(iterations)</td>
+                            <td class="no">NO</td>
+                        </tr>
+                        <tr>
+                            <td>Brute Force (1000 pts)</td>
+                            <td>Exhaustive</td>
+                            <td class="yes">YES</td>
+                            <td class="no">NO</td>
+                            <td>O(n)</td>
+                            <td class="no">NO</td>
+                        </tr>
+                        <tr>
+                            <td>Reinforcement Learning</td>
+                            <td>True AI</td>
+                            <td class="yes">YES</td>
+                            <td class="yes">YES</td>
+                            <td>O(episodes)</td>
+                            <td class="no">NO</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CODE ANALYSIS SECTION -->
+    <section class="section dark" id="code">
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">CODE & ARCHITECTURE REVIEW</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="container">
+            <div class="code-review-grid">
+                <div class="code-card glass reveal">
+                    <div class="code-header">
+                        <span class="file-name">Architecture</span>
+                        <span class="status-badge bad">FRAGMENTED</span>
+                    </div>
+                    <div class="code-body">
+                        <pre><code>project/
+  Extradata.py          # XML extraction
+  Visualize2D.py        # Topology view
+  Visualize2D_colored.py # Color view
+  Optimization.py       # Splice optimization
+  extract_3dxml_to_csv.py # 3D extraction
+  Visualize3D.py        # 3D rendering
+
+  # MISSING:
+  main.py              # No unified CLI
+  requirements.txt     # No dependencies
+  tests/               # No tests!
+  src/                 # No structure
+  config.yaml          # No configuration</code></pre>
+                    </div>
+                </div>
+
+                <div class="code-card glass reveal">
+                    <div class="code-header">
+                        <span class="file-name">Optimization.py</span>
+                        <span class="status-badge bad">BUG</span>
+                    </div>
+                    <div class="code-body">
+                        <pre><code class="python"># CLOSURE BUG IN PYTHON
+for sid, sp in splices.items():
+    def cost(d):
+        # 'endpoints' captured by REFERENCE
+        # If endpoints changes between iterations,
+        # ALL cost functions point to SAME data!
+        pos = interp(pts, np.clip(d, 0, total))
+        return sum(
+            np.hypot(pos[0]-ex, pos[1]-ey)
+            for ex,ey in endpoints
+        )
+    # FIX: use default argument
+    # def cost(d, ep=endpoints): ...</code></pre>
+                    </div>
+                </div>
+
+                <div class="code-card glass reveal">
+                    <div class="code-header">
+                        <span class="file-name">Quality Metrics</span>
+                        <span class="status-badge warn">INCOMPLETE</span>
+                    </div>
+                    <div class="metrics-list">
+                        <div class="metric-row">
+                            <span>Unit Tests</span>
+                            <div class="metric-bar"><div class="metric-fill" style="width: 0%"></div></div>
+                            <span class="metric-val">0%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span>Error Handling</span>
+                            <div class="metric-bar"><div class="metric-fill" style="width: 15%"></div></div>
+                            <span class="metric-val">15%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span>Documentation</span>
+                            <div class="metric-bar"><div class="metric-fill" style="width: 40%"></div></div>
+                            <span class="metric-val">40%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span>Code Reuse</span>
+                            <div class="metric-bar"><div class="metric-fill" style="width: 25%"></div></div>
+                            <span class="metric-val">25%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span>Logging</span>
+                            <div class="metric-bar"><div class="metric-fill" style="width: 5%"></div></div>
+                            <span class="metric-val">5%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-card glass reveal">
+                    <div class="code-header">
+                        <span class="file-name">What "Real AI" Would Look Like</span>
+                        <span class="status-badge good">SUGGESTION</span>
+                    </div>
+                    <div class="code-body">
+                        <pre><code class="python"># Option 1: Genetic Algorithm (NSGA-II)
+from deap import base, creator, tools
+# Multi-objective: min(length) + min(cost)
+# + max(accessibility)
+
+# Option 2: ML Prediction
+from sklearn.ensemble import RandomForestRegressor
+model.fit(X_train, y_optimal_positions)
+# Instant prediction for new harness
+
+# Option 3: Reinforcement Learning
+class SpliceAgent(gym.Env):
+    # reward = -total_length + bonus
+    # Learns to generalize across harnesses
+
+# Option 4: Anomaly Detection
+from sklearn.cluster import DBSCAN
+# Detect oversized wires automatically</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JURY QUESTIONS SECTION -->
+    <section class="section" id="jury">
+        <div class="section-header">
+            <span class="section-number">05</span>
+            <h2 class="section-title">JURY TRAP QUESTIONS</h2>
+            <div class="section-line red"></div>
+        </div>
+        <div class="container">
+            <p class="section-intro">9 questions the jury will likely ask. Prepare answers for ALL of them.</p>
+
+            <div class="questions-list">
+                <div class="question-card reveal" data-q="1">
+                    <div class="q-number">Q1</div>
+                    <div class="q-content">
+                        <h4>"Why do you call this AI? Golden Section Search is from 1953."</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-high">&#9608;&#9608;&#9608;&#9608;&#9608;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Be honest. Say "optimization algorithm inspired by mathematical intelligence" or acknowledge it's classical optimization with AI as a future perspective.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="2">
+                    <div class="q-number">Q2</div>
+                    <div class="q-content">
+                        <h4>"Your cost function uses Euclidean distance. Why not curvilinear distance along the bundle?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-high">&#9608;&#9608;&#9608;&#9608;&#9608;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Acknowledge the simplification. Explain that for nearly-straight bundles the approximation is valid, but for curved bundles it's a limitation.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="3">
+                    <div class="q-number">Q3</div>
+                    <div class="q-content">
+                        <h4>"Both splices converge to 5.0cm - that's your MARGIN_SPLICE boundary. Isn't the algorithm just hitting a wall?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-high">&#9608;&#9608;&#9608;&#9608;&#9601;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Explain this is a constrained optimization result - the unconstrained minimum is at 0, so the boundary is the best feasible solution.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="4">
+                    <div class="q-number">Q4</div>
+                    <div class="q-content">
+                        <h4>"Wire CM08B increases by +33cm. Does the REAL cost (in euros) actually decrease?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-medium">&#9608;&#9608;&#9608;&#9608;&#9601;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Calculate the ROI: if all wires are same section (0.35mm&sup2;), the cost definitely decreases. If sections differ, acknowledge the limitation and propose weighted optimization as a perspective.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="5">
+                    <div class="q-number">Q5</div>
+                    <div class="q-content">
+                        <h4>"How does this scale to a full PPL harness with 500+ wires?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-medium">&#9608;&#9608;&#9608;&#9601;&#9601;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> The algorithm is O(n*log(1/&epsilon;)) per splice, so it scales linearly. Show that optimization of ALL splices takes seconds, not minutes.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="6">
+                    <div class="q-number">Q6</div>
+                    <div class="q-content">
+                        <h4>"Does the optimized position fall in a severe zone (thermal, vibration)?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-medium">&#9608;&#9608;&#9608;&#9601;&#9601;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Acknowledge that zone-aware constraints are not yet integrated. Propose adding a zone-severity map as a hard constraint in future versions.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="7">
+                    <div class="q-number">Q7</div>
+                    <div class="q-content">
+                        <h4>"Where is the SPC (Statistical Process Control) in your 'Control' phase?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-medium">&#9608;&#9608;&#9608;&#9601;&#9601;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Acknowledge the gap. Explain that the 3D validation serves as a first-level control, and SPC would be the next step with production data.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="8">
+                    <div class="q-number">Q8</div>
+                    <div class="q-content">
+                        <h4>"What's the annual ROI? 39.4cm &times; cost_per_meter &times; vehicles_per_year = ?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-low">&#9608;&#9608;&#9601;&#9601;&#9601;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Calculate: ~0.4m &times; ~2&euro;/m &times; 200,000 vehicles = ~160,000&euro;/year potential. Multiply by number of optimizable splices for total impact.</p>
+                    </div>
+                </div>
+
+                <div class="question-card reveal" data-q="9">
+                    <div class="q-number">Q9</div>
+                    <div class="q-content">
+                        <h4>"Have you validated reproducibility on a second harness?"</h4>
+                        <div class="q-danger">DANGER LEVEL: <span class="danger-medium">&#9608;&#9608;&#9608;&#9601;&#9601;</span></div>
+                        <p class="q-tip"><strong>TIP:</strong> Be honest - only one harness was tested. Explain time constraints of the internship and that the tool is designed to work on any Capital XC XML export.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SCORE SECTION -->
+    <section class="section dark" id="score">
+        <div class="section-header">
+            <span class="section-number">06</span>
+            <h2 class="section-title">FINAL ASSESSMENT</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="container">
+            <div class="score-dashboard">
+                <div class="main-score reveal">
+                    <div class="score-ring">
+                        <svg viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="85" class="score-bg"/>
+                            <circle cx="100" cy="100" r="85" class="score-fill" id="scoreCircle"/>
+                        </svg>
+                        <div class="score-text">
+                            <span class="score-value" id="mainScore">0</span>
+                            <span class="score-max">/20</span>
+                        </div>
+                    </div>
+                    <p class="score-label">ESTIMATED JURY SCORE</p>
+                    <p class="score-verdict">CORRECT BUT NOT EXCELLENT</p>
+                </div>
+
+                <div class="criteria-grid">
+                    <div class="criteria-card reveal">
+                        <div class="criteria-header">
+                            <span>Subject Mastery</span>
+                            <span class="criteria-score">14/20</span>
+                        </div>
+                        <div class="criteria-bar"><div class="criteria-fill" style="width: 70%"></div></div>
+                        <p>Good understanding of harnesses, weak in math</p>
+                    </div>
+                    <div class="criteria-card reveal">
+                        <div class="criteria-header">
+                            <span>Technical Quality</span>
+                            <span class="criteria-score">12/20</span>
+                        </div>
+                        <div class="criteria-bar"><div class="criteria-fill" style="width: 60%"></div></div>
+                        <p>Functional pipeline but naive optimization</p>
+                    </div>
+                    <div class="criteria-card reveal">
+                        <div class="criteria-header">
+                            <span>Scientific Rigor</span>
+                            <span class="criteria-score">10/20</span>
+                        </div>
+                        <div class="criteria-bar"><div class="criteria-fill" style="width: 50%"></div></div>
+                        <p>"AI" misused, no statistical validation</p>
+                    </div>
+                    <div class="criteria-card reveal">
+                        <div class="criteria-header">
+                            <span>Writing Quality</span>
+                            <span class="criteria-score">15/20</span>
+                        </div>
+                        <div class="criteria-bar"><div class="criteria-fill" style="width: 75%"></div></div>
+                        <p>Clear, well-structured, good figures</p>
+                    </div>
+                    <div class="criteria-card reveal">
+                        <div class="criteria-header">
+                            <span>Originality</span>
+                            <span class="criteria-score">13/20</span>
+                        </div>
+                        <div class="criteria-bar"><div class="criteria-fill" style="width: 65%"></div></div>
+                        <p>Good automation idea, partial execution</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Positives Section -->
+            <div class="positives-section reveal">
+                <h3 class="sub-title green">STRENGTHS TO HIGHLIGHT</h3>
+                <div class="positives-grid">
+                    <div class="positive-item"><span class="check">&#10003;</span> End-to-end functional pipeline (XML to 3D)</div>
+                    <div class="positive-item"><span class="check">&#10003;</span> Real industrial problem (not academic exercise)</div>
+                    <div class="positive-item"><span class="check">&#10003;</span> Dual competence: Electrical + Software (rare in GE)</div>
+                    <div class="positive-item"><span class="check">&#10003;</span> Clean Python code with readable structure</div>
+                    <div class="positive-item"><span class="check">&#10003;</span> Good DMAIC methodology framework</div>
+                    <div class="positive-item"><span class="check">&#10003;</span> Professional 2D and 3D visualizations</div>
+                    <div class="positive-item"><span class="check">&#10003;</span> Multi-format support (KBL, XML, 3DXML, STP)</div>
+                    <div class="positive-item"><span class="check">&#10003;</span> Real time savings on data extraction</div>
+                </div>
+            </div>
+
+            <!-- How to reach 16+ -->
+            <div class="upgrade-section reveal">
+                <h3 class="sub-title">HOW TO REACH 16+/20</h3>
+                <div class="upgrade-list">
+                    <div class="upgrade-item">
+                        <span class="upgrade-num">1</span>
+                        <p>Fix the title: remove "IA" or add a REAL ML component</p>
+                    </div>
+                    <div class="upgrade-item">
+                        <span class="upgrade-num">2</span>
+                        <p>Correct the cost function: curvilinear distance, weighted by CSA</p>
+                    </div>
+                    <div class="upgrade-item">
+                        <span class="upgrade-num">3</span>
+                        <p>Compare with at least 1 other optimization method</p>
+                    </div>
+                    <div class="upgrade-item">
+                        <span class="upgrade-num">4</span>
+                        <p>Test on 3+ harnesses to show generalizability</p>
+                    </div>
+                    <div class="upgrade-item">
+                        <span class="upgrade-num">5</span>
+                        <p>Add real "Control" with SPC and monitoring</p>
+                    </div>
+                    <div class="upgrade-item">
+                        <span class="upgrade-num">6</span>
+                        <p>Calculate industrial ROI in euros/year</p>
+                    </div>
+                    <div class="upgrade-item">
+                        <span class="upgrade-num">7</span>
+                        <p>Enrich bibliography: 30+ references with research papers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-brand">HARNESS<span class="accent">AI</span> // CRITICAL ANALYSIS SYSTEM</p>
+            <p class="footer-info">Analysis performed on June 21, 2026 | 93 pages reviewed | Report: PFE Finale</p>
+            <p class="footer-disclaimer">This review is intended for internal preparation purposes. All findings are constructive suggestions.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
